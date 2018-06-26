@@ -10,9 +10,10 @@
 
 ### Purpose
 
-Protect a critical application from the Linux kernel's OOM Killer.
+Protect a critical application from being killed first by the Linux kernel's OOM Killer.
 
-For example, the critical app could be MySQL, with an Apache process triggering the OOM, but MySQL &ndash; by using the most memory &ndash; being ungracefully killed first.
+The critical app on a webserver could be MySQL, with a runaway Apache process triggering the OOM, but MySQL &ndash; using the most memory &ndash; being ungracefully killed first.
+
 
 ### Usage
 
