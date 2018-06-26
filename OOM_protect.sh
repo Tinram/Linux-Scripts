@@ -2,7 +2,7 @@
 
 # File:           OOM_protect.sh
 #
-# Description:    Protect a critical application from the OOM Killer.
+# Description:    Protect a critical application from being killed first by the Linux OOM Killer.
 #
 # Usage:          chmod 700 OOM_protect.sh
 #                 sudo ./OOM_protect.sh
