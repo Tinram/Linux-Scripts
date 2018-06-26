@@ -18,7 +18,7 @@
 # CONFIG
 # set app path
 ######################
-APP=/usr/bin/mysql
+APP=/usr/bin/<app>
 ######################
 
 
