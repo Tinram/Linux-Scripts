@@ -23,7 +23,7 @@ APP=/usr/local/bin/gpggui   # set path to your app
 #############################
 
 
-sysctl vm.oom_kill_allocating_task=1 # set OOM: culprit = first victim
+sysctl vm.oom_kill_allocating_task=1 # set OOM: culprit = first victim / avoid expensive tasklist scan
 
 
 case "$APP" in
