@@ -12,7 +12,14 @@
 
 Protect a critical application from being killed first by the Linux kernel's OOM Killer.
 
-The critical app on a webserver could be MySQL, with a runaway Apache process triggering the OOM, but MySQL &ndash; using the most memory &ndash; being ungracefully killed first.
+
+### Description
+
+The critical app on a webserver could be MySQL.
+
+A runaway PHP script, operating through an Apache process, triggers the OOM.
+
+However, MySQL &ndash; using the most memory &ndash; is ungracefully killed first, before Apache.
 
 
 ### Usage
