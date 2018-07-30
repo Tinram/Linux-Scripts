@@ -15,18 +15,18 @@ Protect a critical application from being killed first by the Linux kernel's OOM
 
 ### Description
 
-The critical app on a webserver could be MySQL.
++ The critical app on a webserver might be MySQL.
++ A runaway PHP script, operating through an Apache process, triggers the OOM.
++ But MySQL &ndash; using the most memory &ndash; is ungracefully killed first, before Apache.
 
-A runaway PHP script, operating through an Apache process, triggers the OOM.
-
-However, MySQL &ndash; using the most memory &ndash; is ungracefully killed first, before Apache.
+*OOM_protect.sh* aims to stop the above happening.
 
 
 ### Usage
 
 1. `chmod 700 OOM_protect.sh`
 
-2. set `APP` path in script's *CONFIG* section.
+2. set `APP` path in the script's *CONFIG* section.
 
 3. `sudo ./OOM_protect.sh`
 
