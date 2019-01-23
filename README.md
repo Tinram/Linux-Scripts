@@ -6,6 +6,22 @@
 
 ---
 
+## *elf_overview.sh*
+
+### Purpose
+
+Provide a simple overview of an ELF executable details through calling the Linux programs `file`, `readelf`, `hd`, `size`, `objdump`, `ldd`, and `strings`.
+
+
+### Usage
+
+```bash
+    ./elf_overview.sh <exe> | less
+```
+
+
+---
+
 ## *OOM_protect.sh*
 
 ### Purpose
