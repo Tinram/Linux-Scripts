@@ -10,7 +10,7 @@
 
 ### Purpose
 
-Provide a simple overview of an ELF executable details through calling the Linux programs `file`, `readelf`, `hd`, `size`, `objdump`, `ldd`, and `strings`.
+Output a simple overview of an ELF executable through the calling `file`, `readelf`, `hd`, `size`, `objdump`, `ldd`, and `strings`. This is easier to run than remember the command-line switches, and some tools (`objdump` and `readelf`) can produce subtly similar outputs.
 
 
 ### Usage
