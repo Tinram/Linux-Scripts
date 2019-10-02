@@ -84,11 +84,13 @@ or
 
 #### Restore icons from bash script
 
++ ensure Desktop 'Auto-arrange' is off
+
 ```bash
     ./icon_restore
 ```
 
-+ show desktop
++ show Desktop
 + press <kbd>F5</kbd>
 
 ---
